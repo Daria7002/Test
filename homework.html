@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div style=" width: 500px; margin-left: 500px;" class="question1">
+	<div style="background: #ccf8ff; height: 570px;">
+		<img src="https://vsthemes.org/uploads/posts/2019-05/1582031600_the-amazing-world-of-gumball_vsthemes_ru-18.jpg" style="width: 300px; margin-left: 100px;"/>
+		<h2>
+			  Как зовут Главных героев в "Удивительном мире Гамбола"?
+		</h2>
+		<div style="background: #f5fb00; height: 100px;" class="variant1">
+			Гамбол и Пенни 
+		</div>
+		<div style="background: #fcd27c; height: 100px;" class="variant2">
+			Гамбол и Дарвин
+		</div>
+		<div style="background: #ffcdf7; height: 100px;" class="variant3">
+			Гамбол и Анаис
+		</div>
+	</div>
+	<div style="background: #ccf8ff; height: 600px;display: none;" class="question2">
+	      <h2>
+			Какой саунтрек относится к мультфильму "Удивительный мир Гамбола"? 
+		  </h2>	
+		<iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/52065784/10784601"><a href='https://music.yandex.ru/album/10784601/track/52065784'></a><a href='https://music.yandex.ru/artist/357420'></a></iframe>
+		<iframe frameborder="0" style="border:none;width:100%;height:180px;" width="100%" height="180" src="https://music.yandex.ru/iframe/#track/81161578/14967869"><a href='https://music.yandex.ru/album/14967869/track/81161578'></a> — <a href='https://music.yandex.ru/artist/4683503'></a></iframe>
+		<div style="background: #f5fb00; height: 100px;" class="variant1">
+			Первый
+		</div>
+		<div style="background: #8efff7; height: 100px;" class="variant2">
+			Второй
+		</div>
+	</div>
+	<div style="background: #ccf8ff; height: 470px; display: none;" class="question3">
+	     <h2>
+        	На что у Пенни аллергия?
+         </h2>	
+		<iframe width="500" height="315" src="https://www.youtube.com/embed/yx-V4IfZ7Z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div style="background: #f45dcb; height: 100px;" class="variant1">
+			На голубику
+		</div>
+		<div style="background: #faa5b0; height: 100px;" class="variant2">
+			На пыльцу
+		</div>
+		<div style="background: #7281c9; height: 100px;" class="variant3">
+			На людей
+		</div>
+	</div>
+</div>	
+</body>
+</html> 
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+
+<script type="text/javascript">
+   find ("question1 variant1").click("alert", "неправильно")  
+   find ("question1 variant2").click("show", "question2", "правильно!1)") 
+   find ("question1 variant3").click("alert", "неправильно") 
+
+   find ("question2 variant1").click("alert", "неправильно")  
+   find ("question2 variant2").click("show", "question3", "правильно!1)") 
+
+   find ("question3 variant1").click("show", "question1", "правильно!1)")  
+   find ("question3 variant2").click("alert", "неправильно") 
+   find ("question3 variant3").click("alert", "неправильно") 
+</script> 
